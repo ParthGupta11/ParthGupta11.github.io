@@ -277,6 +277,89 @@ img {
   margin: 0 8px 8px 0;
 }
 
+/* Experience Section */
+.timeline {
+  position: relative;
+  padding-left: 32px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--color-primary-light);
+}
+
+.timeline-entry {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 24px;
+}
+
+.timeline-entry:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -32px;
+  top: 6px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-primary);
+}
+
+.timeline-card {
+  background-color: var(--color-white);
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: var(--shadow-card);
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.timeline-company {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.timeline-location {
+  font-size: 14px;
+  color: var(--color-muted);
+  font-weight: 400;
+}
+
+.timeline-role {
+  font-size: 15px;
+  color: var(--color-primary);
+  font-weight: 500;
+  margin: 4px 0 12px;
+}
+
+.timeline-bullets {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.timeline-bullets li {
+  font-size: 15px;
+  color: var(--color-muted);
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
@@ -371,6 +454,24 @@ img {
     width: 200px;
     height: 240px;
     margin: 0 auto;
+  }
+
+  .timeline {
+    padding-left: 24px;
+  }
+
+  .timeline::before {
+    left: 5px;
+  }
+
+  .timeline-entry {
+    padding-left: 16px;
+  }
+
+  .timeline-dot {
+    left: -24px;
+    width: 12px;
+    height: 12px;
   }
 }
 
