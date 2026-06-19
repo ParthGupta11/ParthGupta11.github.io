@@ -437,6 +437,38 @@ img {
   margin-top: auto;
 }
 
+/* Contact Section */
+#contact {
+  text-align: center;
+}
+
+.contact-tagline {
+  font-size: 17px;
+  color: var(--color-muted);
+  margin-bottom: 40px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-text);
+  font-size: 15px;
+  font-weight: 500;
+  transition: color var(--transition);
+}
+
+.contact-item:hover {
+  color: var(--color-primary);
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
@@ -554,6 +586,12 @@ img {
   .projects-grid {
     grid-template-columns: 1fr;
     gap: 24px;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
   }
 }
 
