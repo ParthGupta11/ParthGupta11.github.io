@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Parth Gupta | Robotics & Computer Vision Engineer</title>
-  <meta name="description" content="Portfolio of Parth Gupta — MS Robotics at CMU. Computer vision, perception systems, and autonomous robots.">
+  <meta name="description" content="Portfolio of Parth Gupta — MS Robotic Systems Development at CMU. Computer vision, perception systems, and autonomous robots.">
 
   <!-- Open Graph Tags -->
   <meta property="og:title" content="Parth Gupta | Robotics & Computer Vision Engineer">
@@ -47,7 +47,7 @@
       <div class="container hero-content">
         <h1 class="hero-name">Parth Gupta</h1>
         <p class="hero-title">Robotics & Computer Vision Engineer</p>
-        <p class="hero-bio">MS Robotics @ CMU · Building perception systems for autonomous robots</p>
+        <p class="hero-bio">MS — Robotic Systems Development (MRSD) @ Carnegie Mellon University<br>Building perception systems for autonomous robots</p>
 
         <div class="hero-cta">
           <a href="#projects" class="btn btn-primary">View Projects</a>
@@ -63,12 +63,14 @@
 
         <div class="about-grid">
           <!-- Photo Placeholder -->
-          <div class="about-photo">Parth Gupta</div>
+          <img class="about-photo" src="/assets/images/profile.jpg" alt="Parth Gupta">
 
           <!-- About Text -->
           <div class="about-text">
-            <p>I'm a Robotics and Computer Vision Engineer with an MS in Robotics from Carnegie Mellon University. My passion lies in building perception systems for autonomous robots that operate in real-world environments. I have experience in robotics software, computer vision, and sensor fusion, with previous roles at Niqo Robotics and Salin 247.</p>
-            <p class="text-muted">CMU MS Robotics (4.0 GPA) · MAIT, India (9.6/10) · IEEE publication on dynamical systems prediction (undergraduate research)</p>
+            <p>I'm pursuing my Master's degree in Robotic Systems Development at Carnegie Mellon University, and I am looking for full-time opportunities starting May 2026.</p>
+            <p>At CMU, I am specializing in computer vision and robot autonomy building projects like Autonomous Food Assembly Kiosk and Human Segmentation pipelines for LiDAR. Recently, I interned at Salin 247, where I developed real-time perception and collision avoidance systems for autonomous farm robots.</p>
+            <p>I have an undergraduate degree in Information Technology, during which I developed skills in the fundamentals of computer science and machine learning. I forayed into Robotics by working as an intern and later as a full-time computer vision engineer at an agri-tech startup — Niqo Robotics, where I developed object detection models, designed and optimized ROS2 node pipelines, and actuator control algorithms for high-precision spot spray robots.</p>
+            <!-- <p class="text-muted">CMU MS Robotics (4.0 GPA) · MAIT, India (9.6/10)</p> -->
           </div>
         </div>
 
@@ -79,13 +81,14 @@
             <span class="skill-tag">Object Detection</span>
             <span class="skill-tag">Instance Segmentation</span>
             <span class="skill-tag">Image Processing</span>
-            <span class="skill-tag">Sensor Fusion</span>
+            <span class="skill-tag">Sensor Calibration & Fusion</span>
             <span class="skill-tag">LiDAR</span>
           </div>
 
           <div class="skill-category">
             <h3 class="skill-category-title">ML & Deep Learning</h3>
             <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">Machine Learning</span>
             <span class="skill-tag">Deep Learning</span>
             <span class="skill-tag">Model Fine-tuning</span>
             <span class="skill-tag">TensorRT</span>
@@ -95,6 +98,7 @@
           <div class="skill-category">
             <h3 class="skill-category-title">Robotics</h3>
             <span class="skill-tag">ROS1/ROS2</span>
+            <span class="skill-tag">Robotics Software Development</span>
             <span class="skill-tag">Robot Autonomy</span>
             <span class="skill-tag">Reinforcement Learning</span>
             <span class="skill-tag">SLAM</span>
@@ -104,6 +108,8 @@
             <h3 class="skill-category-title">Programming</h3>
             <span class="skill-tag">Python</span>
             <span class="skill-tag">C++</span>
+            <span class="skill-tag">OpenCV</span>
+            <span class="skill-tag">NumPy</span>
             <span class="skill-tag">MATLAB</span>
             <span class="skill-tag">Docker</span>
             <span class="skill-tag">Git</span>
@@ -128,11 +134,11 @@
                 <h3 class="timeline-company">Salin 247</h3>
                 <span class="timeline-location">Ames, IA</span>
               </div>
-              <p class="timeline-role">Robotics Engineer · May 2025 – Aug 2025</p>
+              <p class="timeline-role">Robotics Engineer Intern · May 2025 – Aug 2025</p>
               <ul class="timeline-bullets">
-                <li>Perception subsystem: 2 LiDARs + 4 RGB cameras, 360° obstacle detection, 8 mph autonomous driving</li>
-                <li>Latency optimization: 230ms → 40ms via TensorRT, CUDA, multiprocessing; 20 FPS</li>
-                <li>Built orchestrator managing 25+ ROS nodes</li>
+                <li>Architected perception subsystem by leveraging 2 LiDARs and 4 RGB cameras to detect obstacles in real-time (360° coverage) and avoid collisions in agricultural robots, enabling safe autonomous driving at 8 mph speeds.</li>
+                <li>Optimized image un-distortion, model inference, and point cloud processing for sensor fusion and object detection through TensorRT, CUDA, and multiprocessing, decreasing latency (230 ms to 40 ms) and enabling 20 FPS processing.</li>
+                <li>Built a software orchestrator to automate launching, monitoring, and configuration management of 25+ ROS nodes.</li>
               </ul>
             </div>
           </div>
@@ -147,9 +153,9 @@
               </div>
               <p class="timeline-role">Computer Vision Engineer · Aug 2023 – May 2024</p>
               <ul class="timeline-bullets">
-                <li>ROS2 pipeline for high-precision agricultural robots; &lt;2ms software latency</li>
-                <li>Cross-functional RCA; increased spraying precision by 67% at 3 mph</li>
-                <li>Virtual mapping system for crop rows and spray region visualization</li>
+                <li>Designed ROS2 nodes pipeline for high-precision robots to minimize delay between object sensing and actuation of spray nozzle, resulting in less than 2 ms software latency and accurate delivery of chemical to plants.</li>
+                <li>Led a cross-functional three-engineer team to perform system-level RCA. Developed software system checks and sensor calibration techniques to identify and increase spraying precision by 67% at 3 mph vehicular speed.</li>
+                <li>Designed and implemented virtual mapping system to visualize crop rows and chemical spray regions by post-processing robot odometry, object detection, and nozzle control data, allowing instant error attribution to different subsystems.</li>
               </ul>
             </div>
           </div>
@@ -164,8 +170,8 @@
               </div>
               <p class="timeline-role">Computer Vision Intern · Jul 2022 – Jul 2023</p>
               <ul class="timeline-bullets">
-                <li>Crop row detection + selective spray with &lt;50ms latency</li>
-                <li>Deep learning pipeline (CVAT, Python, AWS); crop detection at 99% accuracy</li>
+                <li>Developed and deployed algorithms by using image processing, machine learning, and ROS to estimate location of crop rows and selectively spray chemicals with less than 50 ms latency.</li>
+                <li>Managed deep learning pipelines using CVAT, Python scripts, and AWS for data preparation, model training, evaluation, and error categorization used to develop crop detection networks with 99% accuracy.</li>
               </ul>
             </div>
           </div>
@@ -181,11 +187,11 @@
         <div class="projects-grid">
           <!-- Project 1: Food Assembly Kiosk -->
           <div class="project-card">
-            <div class="project-image">Autonomous Food Assembly Kiosk</div>
+            <img class="project-image" src="/assets/projects/food-kiosk.png" alt="Autonomous Food Assembly Kiosk">
             <div class="project-body">
               <h3 class="project-title">Autonomous Food Assembly Kiosk</h3>
               <span class="project-date">Aug 2024 – Present</span>
-              <p class="project-description">7-DOF robot arm assembling meals; RL for deformable ingredient grasping. 80% pick accuracy for lettuce/onions; UNet+SAM2 for ingredient localization at 95%.</p>
+              <p class="project-description">Built the perception and RL stack for a 7-DOF robot arm that assembles meals from deformable ingredients using custom end-effectors. Trained an off-policy RL model on teleoperation data for 80% pick accuracy on lettuce and onions; fine-tuned UNet and SAM2 for ingredient localization at 95% accuracy.</p>
               <div class="project-tags">
                 <span class="skill-tag">ROS2</span>
                 <span class="skill-tag">PyTorch</span>
@@ -199,11 +205,11 @@
 
           <!-- Project 2: Sparse-H3D -->
           <div class="project-card">
-            <div class="project-image">Sparse-H3D: 3D Human Segmentation</div>
+            <img class="project-image" src="/assets/projects/sparse-H3D.png" alt="Sparse-H3D: 3D Human Segmentation">
             <div class="project-body">
               <h3 class="project-title">Sparse-H3D: 3D Human Segmentation from Sparse LiDAR</h3>
               <span class="project-date">May – Aug 2025</span>
-              <p class="project-description">Human segmentation from sparse outdoor LiDAR using models trained on dense indoor data. Fine-tuned transformers: 2% → 90%+ average precision on sparse data.</p>
+              <p class="project-description">Developed a pipeline for 3D human segmentation from sparse outdoor LiDAR using models trained on dense indoor depth maps, bridging the domain gap through point cloud processing and model generalization techniques. Fine-tuned transformer models on simulated sparse datasets, improving average precision from 2% to over 90%.</p>
               <div class="project-tags">
                 <span class="skill-tag">LiDAR</span>
                 <span class="skill-tag">Point Clouds</span>
@@ -216,11 +222,11 @@
 
           <!-- Project 3: Virtual Clothing Assistant -->
           <div class="project-card">
-            <div class="project-image">Virtual Clothing Assistant</div>
+            <img class="project-image" src="/assets/projects/virtual-clothing.png" alt="Virtual Clothing Assistant">
             <div class="project-body">
               <h3 class="project-title">Virtual Clothing Assistant</h3>
               <span class="project-date">Jan – Mar 2022</span>
-              <p class="project-description">Virtual try-on for e-commerce using VITON paper. OpenPose + UNet + ResNet pipeline deployed as Django web app.</p>
+              <p class="project-description">Built a virtual try-on tool for e-commerce by implementing the VITON paper, warping and superimposing clothing articles onto user images. Combined OpenPose, UNet, and ResNet for pose estimation, segmentation, and cloth mask generation, deployed as a Django web app.</p>
               <div class="project-tags">
                 <span class="skill-tag">Deep Learning</span>
                 <span class="skill-tag">OpenPose</span>
